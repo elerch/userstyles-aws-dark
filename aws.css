@@ -1,0 +1,66 @@
+body,
+#content,
+.CLB,
+.DMB,
+#bucket-list-container,
+#properties-panel,
+.GHGJSONCEBF {
+    background-color: #333;
+    color: #ddd
+}
+.HMB {
+    background-color: #555
+}
+.dialogContent,
+.LBD,
+.GHGJSONCJ1 {
+    color: #555
+}
+/* Dark text for lighter stuff (dialogs, table headers, etc */
+
+.JLB,
+.gwt-TabLayoutPanelTabs,
+.J5B,
+.BHB,
+.GXH,
+.GHGJSONCH0 {
+    color: #333
+}
+#content div.serviceName {
+    color: #aaa
+}
+#content .services h2 {
+    color: #999
+}
+#properties-panel-header-item-label,
+#properties-panel-header-item-name,
+#properties-panel-sections>h2 {
+    color: #aaa
+}
+/* sidebar menu items */
+
+.DS,
+.GHGJSONCEBF ul li a {
+    color: #777
+}
+div.sphinxsidebar p,
+div.sphinxsidebar h3,
+div.sphinxsidebar h3 a,
+div.sphinxsidebar h4 {
+    color: #aaa
+}
+code,
+pre {
+    background-color: #555;
+    color: #eee
+}
+tt {
+    color: rgba(255, 255, 0, 0.7);
+}
+.navbar-inner {
+    background: #000
+}
+.navbar .brand,
+.navbar .nav>li>a {
+    text-shadow: 0 1px 0 #000;
+}
