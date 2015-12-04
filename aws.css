@@ -1,4 +1,5 @@
 @-moz-document domain("aws.amazon.com") {
+html,
 body,
 #content,
 .CLB,
@@ -87,5 +88,15 @@ tt {
 .navbar .brand,
 .navbar .nav>li>a {
     text-shadow: 0 1px 0 #000;
+}
+/* Marketing page tweaks */
+
+.related-link a {
+    color: hsla(210, 50%, 54%, 1);
+    /* expressed as HSLA because I just bumped luminosity from original */
+}
+#aws-page-content h3,
+#aws-page-content a {
+    color: hsla(210, 50%, 54%, 1);
 }
 }
