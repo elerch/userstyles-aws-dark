@@ -5,9 +5,22 @@ body,
 .DMB,
 #bucket-list-container,
 #properties-panel,
-.GHGJSONCEBF {
+.GHGJSONCEBF,
+#main,
+#left-column,
+li.awstoc,
+ul.awstoc {
     background-color: #333;
     color: #ddd
+}
+#main p,
+#main li {
+    color: #ddd
+}
+a.awstoc.selected,
+#pagetoc a.pagetoc.selected,
+#breadcrumbs span.breadcrumb {
+    color: #eee
 }
 .HMB {
     background-color: #555
@@ -44,16 +57,26 @@ body,
 .GHGJSONCEBF ul li a {
     color: #777
 }
+/* docs styles. Original title header #e47911 */
+
 div.sphinxsidebar p,
 div.sphinxsidebar h3,
 div.sphinxsidebar h3 a,
-div.sphinxsidebar h4 {
+div.sphinxsidebar h4,
+div.informaltable-contents,
+#service-name,
+#language-filter {
     color: #aaa
 }
 code,
-pre {
+pre,
+#pagetoc,
+#pagetoc p {
     background-color: #555;
     color: #eee
+}
+#pagetoc a {
+    color: #0000A0;
 }
 tt {
     color: rgba(255, 255, 0, 0.7);
