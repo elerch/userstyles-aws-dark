@@ -1,3 +1,4 @@
+@-moz-document domain("aws.amazon.com") {
 body,
 #content,
 .CLB,
@@ -63,4 +64,5 @@ tt {
 .navbar .brand,
 .navbar .nav>li>a {
     text-shadow: 0 1px 0 #000;
+}
 }
