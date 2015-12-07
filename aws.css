@@ -1,4 +1,4 @@
-@-moz-document domain("aws.amazon.com") {
+@-moz-document domain("aws.amazon.com"), domain("amazonaws-us-gov.com") {
 html,
 body,
 #content,
@@ -10,7 +10,9 @@ body,
 #main,
 #left-column,
 li.awstoc,
-ul.awstoc {
+ul.awstoc,
+.awsui,
+tr[__gwt_row] {
     background-color: #333;
     color: #ddd
 }
@@ -28,7 +30,8 @@ a.awstoc.selected,
 }
 .dialogContent,
 .LBD,
-.GHGJSONCJ1 {
+.GHGJSONCJ1,
+.AKB {
     color: #555
 }
 /* Dark text for lighter stuff (dialogs, table headers, etc */
@@ -38,10 +41,12 @@ a.awstoc.selected,
 .J5B,
 .BHB,
 .GXH,
-.GHGJSONCH0 {
+.GHGJSONCH0,
+tr[__gwt_header_row] {
     color: #333
 }
-#content div.serviceName {
+#content div.serviceName,
+.awsui .JQ {
     color: #aaa
 }
 #content .services h2 {
