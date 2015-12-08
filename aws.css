@@ -13,7 +13,11 @@ body,
 li.awstoc,
 ul.awstoc,
 .awsui,
-tr[__gwt_row] {
+tr[__gwt_row],
+body.user-type-iam .content-pane table, /* IAM */
+body.user-type-iam div#c, /* IAM */
+body.user-type-iam .full_wizard /* IAM wizard */
+{
     background-color: #333;
     color: #ddd
 }
@@ -27,7 +31,8 @@ div.rds_campaign_cell {
 /* Other */
 .OB, /* highlighted AMI in launch wizard */
 .IS,  /* left nav on launch wizard */
-tr[__gwt_row] .H-C /* selected instance type in launch wizard */
+tr[__gwt_row] .H-C, /* selected instance type in launch wizard */
+table[data-table] tbody tr:hover /* hover over IAM table */
 { background-color: #555 } 
 
 #main p,
@@ -56,7 +61,9 @@ a.awstoc.selected,
 .BHB,
 .GXH,
 .GHGJSONCH0,
-tr[__gwt_header_row] {
+tr[__gwt_header_row],
+table[data-table="resource"] th /* used on IAM */
+{
     color: #333
 }
 #content div.serviceName,
@@ -74,7 +81,8 @@ tr[__gwt_header_row] {
 /* sidebar menu items */
 
 .DS,
-.GHGJSONCEBF ul li a {
+.GHGJSONCEBF ul li a,
+body.user-type-iam .wx-sidenav a /* left sidenav on IAM */{
     color: #777
 }
 /* docs styles. Original title header #e47911 */
