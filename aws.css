@@ -1,4 +1,5 @@
 @-moz-document domain("aws.amazon.com"), domain("amazonaws-us-gov.com") {
+/* Base style */
 html,
 body,
 #content,
@@ -16,6 +17,19 @@ tr[__gwt_row] {
     background-color: #333;
     color: #ddd
 }
+/* 
+  Overrides for inline styles
+*/
+div.rds_campaign_cell {
+    background-color: #333 !important;
+    color: #ddd !important;
+}
+/* Other */
+.OB, /* highlighted AMI in launch wizard */
+.IS,  /* left nav on launch wizard */
+tr[__gwt_row] .H-C /* selected instance type in launch wizard */
+{ background-color: #555 } 
+
 #main p,
 #main li {
     color: #ddd
