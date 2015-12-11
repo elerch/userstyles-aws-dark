@@ -16,7 +16,8 @@ ul.awstoc,
 tr[__gwt_row],
 body.user-type-iam .content-pane table, /* IAM */
 body.user-type-iam div#c, /* IAM */
-body.user-type-iam .full_wizard /* IAM wizard */
+body.user-type-iam .full_wizard, /* IAM wizard */
+#bucket-list-view, #object-list-container /* S3 object lists */
 {
     background-color: #333;
     color: #ddd
