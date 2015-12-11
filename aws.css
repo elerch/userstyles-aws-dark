@@ -126,4 +126,21 @@ tt {
 #aws-page-content a {
     color: hsla(210, 50%, 54%, 1);
 }
+
+/* Java SDK docs */
+ul.blockList ul.blockList ul.blockList li.blockList,
+ul.blockList ul.blockList ul.blockListLast li.blockList, tr.rowColor {background-color:#333}
+ul.blockList ul.blockList ul.blockList li.blockList,
+ul.blockList ul.blockList ul.blockListLast li.blockList,
+tr.altColor {background-color:#555}
+
+ul.blockList h3, ul.blockList h4 {color: #333}
+
+.contentContainer .description ul.blockList  dl dt,
+.contentContainer .details ul.blockList  dl dt,
+.serializedFormContainer ul.blockList dl dt
+{color: #aaa}
+
+ul.blockList a:link,  table.overviewSummary a:visited {color: rgba(255, 255, 0, 0.7);}
+/* End Java SDK docs */
 }
