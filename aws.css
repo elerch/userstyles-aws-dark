@@ -145,3 +145,7 @@ ul.blockList h3, ul.blockList h4 {color: #333}
 ul.blockList a:link,  table.overviewSummary a:visited {color: rgba(255, 255, 0, 0.7);}
 /* End Java SDK docs */
 }
+
+#f {
+  background-color: #333 !important;
+}
