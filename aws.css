@@ -8,8 +8,6 @@ body,
 #bucket-list-container,
 #properties-panel,
 .GHGJSONCEBF,
-.GH2OXPECCOE,
-.GH2OXPECGOE,
 #main,
 #left-column,
 li.awstoc,
@@ -47,13 +45,17 @@ a.awstoc.selected,
 #breadcrumbs span.breadcrumb {
     color: #eee
 }
-.HMB {
+.HMB,.GNG0JBXDG- tbody tr:nth-child(even) {
     background-color: #555
 }
 .dialogContent,
 .LBD,
 .GHGJSONCJ1,
-.AKB {
+.AKB,
+#c.awsui .gwt-InlineLabel, /* Cloudwatch metrics graph headers, ec2 instance monitoring tab */
+div.JLH /* metrics headers */,
+tr[__gwt_row].GKB /* highlighted row, ec2 */
+{
     color: #555
 }
 /* Dark text for lighter stuff (dialogs, table headers, etc */
@@ -63,8 +65,10 @@ a.awstoc.selected,
 .J5B,
 .BHB,
 .GXH,
-.GHGJSONCH0,
+.awsui .IKB, /* ec2 instance table highlighted row */
+.GHGJSONCH0
 tr[__gwt_header_row],
+tr[__gwt_header_row] .IJB, /* ec2 instance table headers */
 table[data-table="resource"] th /* used on IAM */
 {
     color: #333
@@ -78,7 +82,10 @@ table[data-table="resource"] th /* used on IAM */
 }
 #properties-panel-header-item-label,
 #properties-panel-header-item-name,
-#properties-panel-sections>h2 {
+#properties-panel-sections>h2,
+.GH2OXPECGOE, /* labels on CloudFront distribution UI */
+.GH2OXPECMOE  /* more labels on CloudFront distribution UI */
+{
     color: #aaa
 }
 /* sidebar menu items */
